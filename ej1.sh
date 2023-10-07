@@ -15,7 +15,7 @@ registrarSocio(){
     read -p "Ingrese edad mascota: " edadM
     read -p "Ingrese email de contacto: " email;
     read -p "Ingrese telefono de contacto: " tel;
-    echo "$nombre,$cedula,$nombreM,$edadM,$email,$tel" >> socios.txt 
+    echo "$nombre,$cedula,$nombreM,$edadM,$email,$tel" >> socios.txtt 
     echo "Socio registrado con exito"
     echo " "
 }
